@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@solana/web3.js": "^1.69.0",
+    "@zetamarkets/sdk": "^0.18.1",
+    "black-scholes": "^1.1.0",
+    "bs58": "^5.0.0"
+  }
+}
