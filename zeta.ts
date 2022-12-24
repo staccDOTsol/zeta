@@ -215,7 +215,7 @@ console.log(err)
      assets.Asset.SOL,
      137,
      utils.convertDecimalToNativeInteger(asks[0].price+0.001),//
-     utils.convertDecimalToNativeLotSize(1.6),
+     utils.convertDecimalToNativeLotSize(5),
      types.Side.ASK,
      types.OrderType.POSTONLY
    );
@@ -223,7 +223,7 @@ console.log(err)
     assets.Asset.SOL,
     137,
     utils.convertDecimalToNativeInteger(asks[0].price+0.002),//
-    utils.convertDecimalToNativeLotSize(1.6),
+    utils.convertDecimalToNativeLotSize(5),
     types.Side.ASK,
     types.OrderType.POSTONLY
   );
@@ -234,7 +234,7 @@ console.log(err)
      assets.Asset.SOL,
      137,
      utils.convertDecimalToNativeInteger(bids[0].price),//
-     utils.convertDecimalToNativeLotSize(0.9),
+     utils.convertDecimalToNativeLotSize(3),
      types.Side.BID,
      types.OrderType.POSTONLY
    );
@@ -248,7 +248,7 @@ console.log(err)
         assets.Asset.SOL,
         137,
         utils.convertDecimalToNativeInteger(bids[0].price),//
-        utils.convertDecimalToNativeLotSize(0.9),
+        utils.convertDecimalToNativeLotSize(3),
         types.Side.BID,
         types.OrderType.POSTONLY
       );
@@ -257,7 +257,7 @@ console.log(err)
         asset,
         137,
         utils.convertDecimalToNativeInteger(bids[0].price-0.002),//
-        utils.convertDecimalToNativeLotSize(0.016),
+        utils.convertDecimalToNativeLotSize(0.036),
         types.Side.BID,
         types.OrderType.POSTONLY
       );
@@ -267,7 +267,7 @@ console.log(err)
         asset,
         137,
         utils.convertDecimalToNativeInteger(bids[0].price-0.001),//
-        utils.convertDecimalToNativeLotSize(0.016),
+        utils.convertDecimalToNativeLotSize(0.036),
         types.Side.BID,
         types.OrderType.POSTONLY
       );
@@ -277,7 +277,7 @@ console.log(err)
         assets.Asset.SOL,
         137,
         utils.convertDecimalToNativeInteger(asks[0].price),//
-        utils.convertDecimalToNativeLotSize(0.05),
+        utils.convertDecimalToNativeLotSize(0.175),
         types.Side.ASK,
         types.OrderType.POSTONLY
       );
@@ -292,7 +292,7 @@ console.log(err)
       assets.Asset.SOL,
       137,
       utils.convertDecimalToNativeInteger(asks[0].price),//
-      utils.convertDecimalToNativeLotSize(0.04),
+      utils.convertDecimalToNativeLotSize(0.14),
       types.Side.ASK,
       types.OrderType.POSTONLY
     );
@@ -306,7 +306,7 @@ console.log(err)
         assets.Asset.SOL,
         137,
         utils.convertDecimalToNativeInteger(bids[0].price),//
-        utils.convertDecimalToNativeLotSize(0.04),
+        utils.convertDecimalToNativeLotSize(0.14),
         types.Side.BID,
         types.OrderType.POSTONLY
       );
@@ -450,7 +450,7 @@ console.log(err)
             asset,
             137,
             utils.convertDecimalToNativeInteger(bids[0].price),//
-            utils.convertDecimalToNativeLotSize(0.009),
+            utils.convertDecimalToNativeLotSize(0.019),
             types.Side.BID,
             types.OrderType.POSTONLY
           );
@@ -461,7 +461,7 @@ console.log(err)
           asset,
           137,
           utils.convertDecimalToNativeInteger(asks[0].price),//
-          utils.convertDecimalToNativeLotSize(0.016),
+          utils.convertDecimalToNativeLotSize(0.02),
           types.Side.ASK,
           types.OrderType.POSTONLY
           
@@ -471,7 +471,7 @@ console.log(err)
       asset,
       137,
       utils.convertDecimalToNativeInteger(asks[0].price+0.001),//
-      utils.convertDecimalToNativeLotSize(0.02),
+      utils.convertDecimalToNativeLotSize(0.029),
       types.Side.ASK,
       types.OrderType.POSTONLY
     );
@@ -479,7 +479,7 @@ console.log(err)
       asset,
       137,
      utils.convertDecimalToNativeInteger(asks[0].price+0.002),//
-     utils.convertDecimalToNativeLotSize(0.02),
+     utils.convertDecimalToNativeLotSize(0.029),
      types.Side.ASK,
      types.OrderType.POSTONLY
    );
@@ -492,7 +492,7 @@ console.log(err)
             asset,
             137,
             utils.convertDecimalToNativeInteger(bids[0].price),//
-            utils.convertDecimalToNativeLotSize(0.016),
+            utils.convertDecimalToNativeLotSize(0.026),
             types.Side.BID,
             types.OrderType.POSTONLY
           );
@@ -501,7 +501,7 @@ console.log(err)
             asset,
             137,
             utils.convertDecimalToNativeInteger(bids[0].price-0.002),//
-            utils.convertDecimalToNativeLotSize(0.016),
+            utils.convertDecimalToNativeLotSize(0.026),
             types.Side.BID,
             types.OrderType.POSTONLY
           );
@@ -511,7 +511,7 @@ console.log(err)
             asset,
             137,
             utils.convertDecimalToNativeInteger(bids[0].price-0.001),//
-            utils.convertDecimalToNativeLotSize(0.016),
+            utils.convertDecimalToNativeLotSize(0.026),
             types.Side.BID,
             types.OrderType.POSTONLY
           );
@@ -521,7 +521,7 @@ console.log(err)
             asset,
             137,
             utils.convertDecimalToNativeInteger(asks[0].price),//
-            utils.convertDecimalToNativeLotSize(0.018),
+            utils.convertDecimalToNativeLotSize(0.028),
             types.Side.ASK,
             types.OrderType.POSTONLY
           );
@@ -536,7 +536,7 @@ console.log(err)
           asset,
           137,
           utils.convertDecimalToNativeInteger(asks[0].price),//
-          utils.convertDecimalToNativeLotSize(0.018),
+          utils.convertDecimalToNativeLotSize(0.028),
           types.Side.ASK,
           types.OrderType.POSTONLY
         );
@@ -547,7 +547,7 @@ console.log(err)
             asset,
             137,
             utils.convertDecimalToNativeInteger(bids[0].price),//
-            utils.convertDecimalToNativeLotSize(0.018),
+            utils.convertDecimalToNativeLotSize(0.028),
             types.Side.BID,
             types.OrderType.POSTONLY
           );
@@ -695,7 +695,7 @@ console.log(err)
             asset,
             137,
             utils.convertDecimalToNativeInteger(bids[0].price),//
-            utils.convertDecimalToNativeLotSize(0.001),
+            utils.convertDecimalToNativeLotSize(0.002),
             types.Side.BID,
             types.OrderType.POSTONLY
           );
@@ -706,7 +706,7 @@ console.log(err)
           asset,
           137,
           utils.convertDecimalToNativeInteger(asks[0].price),//
-          utils.convertDecimalToNativeLotSize(0.002),
+          utils.convertDecimalToNativeLotSize(0.003),
           types.Side.ASK,
           types.OrderType.POSTONLY
           
@@ -716,7 +716,7 @@ console.log(err)
       asset,
       137,
       utils.convertDecimalToNativeInteger(asks[0].price+0.001),//
-      utils.convertDecimalToNativeLotSize(0.002),
+      utils.convertDecimalToNativeLotSize(0.004),
       types.Side.ASK,
       types.OrderType.POSTONLY
     );
@@ -724,7 +724,7 @@ console.log(err)
       asset,
       137,
      utils.convertDecimalToNativeInteger(asks[0].price+0.002),//
-     utils.convertDecimalToNativeLotSize(0.002),
+     utils.convertDecimalToNativeLotSize(0.004),
      types.Side.ASK,
      types.OrderType.POSTONLY
    );
@@ -737,7 +737,7 @@ console.log(err)
             asset,
             137,
             utils.convertDecimalToNativeInteger(bids[0].price),//
-            utils.convertDecimalToNativeLotSize(0.001),
+            utils.convertDecimalToNativeLotSize(0.002),
             types.Side.BID,
             types.OrderType.POSTONLY
           );
@@ -746,7 +746,7 @@ console.log(err)
             asset,
             137,
             utils.convertDecimalToNativeInteger(bids[0].price-0.002),//
-            utils.convertDecimalToNativeLotSize(0.001),
+            utils.convertDecimalToNativeLotSize(0.002),
             types.Side.BID,
             types.OrderType.POSTONLY
           );
@@ -756,7 +756,7 @@ console.log(err)
             asset,
             137,
             utils.convertDecimalToNativeInteger(bids[0].price-0.001),//
-            utils.convertDecimalToNativeLotSize(0.001),
+            utils.convertDecimalToNativeLotSize(0.002),
             types.Side.BID,
             types.OrderType.POSTONLY
           );
@@ -766,7 +766,7 @@ console.log(err)
             asset,
             137,
             utils.convertDecimalToNativeInteger(asks[0].price),//
-            utils.convertDecimalToNativeLotSize(0.001),
+            utils.convertDecimalToNativeLotSize(0.002),
             types.Side.ASK,
             types.OrderType.POSTONLY
           );
@@ -781,7 +781,7 @@ console.log(err)
           asset,
           137,
           utils.convertDecimalToNativeInteger(asks[0].price),//
-          utils.convertDecimalToNativeLotSize(0.001),
+          utils.convertDecimalToNativeLotSize(0.002),
           types.Side.ASK,
           types.OrderType.POSTONLY
         );
@@ -792,7 +792,7 @@ console.log(err)
             asset,
             137,
             utils.convertDecimalToNativeInteger(bids[0].price),//
-            utils.convertDecimalToNativeLotSize(0.001),
+            utils.convertDecimalToNativeLotSize(0.002),
             types.Side.BID,
             types.OrderType.POSTONLY
           );
